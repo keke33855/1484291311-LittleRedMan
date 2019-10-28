@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A03CD042333AD6D00291C10 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 0A03CD032333AD6D00291C10 /* Stickers.xcstickers */; };
+		0AF6DF1D233AF7E900E6F602 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF6DEE8233AF7E900E6F602 /* ViewController.swift */; };
+		0AF6DF36233AF7EA00E6F602 /* StickerShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF6DF06233AF7E900E6F602 /* StickerShowView.swift */; };
+		0AF6DF37233AF7EA00E6F602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF6DF0A233AF7E900E6F602 /* Assets.xcassets */; };
+		0AF6DF38233AF7EA00E6F602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF6DF0B233AF7E900E6F602 /* LaunchScreen.storyboard */; };
+		0AF6DF39233AF7EA00E6F602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF6DF0D233AF7E900E6F602 /* Main.storyboard */; };
+		0AF6DF3A233AF7EA00E6F602 /* StickerShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF6DF0F233AF7E900E6F602 /* StickerShowViewController.swift */; };
+		0AF6DF3B233AF7EA00E6F602 /* StickerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF6DF10233AF7E900E6F602 /* StickerModel.swift */; };
+		0AF6DF3C233AF7EA00E6F602 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF6DF14233AF7E900E6F602 /* AppDelegate.swift */; };
+		0AF6DF3D233AF7EA00E6F602 /* StickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF6DF15233AF7E900E6F602 /* StickerCollectionViewCell.swift */; };
+		1201F45D235D47350076D0E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1201F45C235D47350076D0E6 /* Images.xcassets */; };
+		1201F522235D4ADF0076D0E6 /* 21.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F4F5235D4ADF0076D0E6 /* 21.gif */; };
+		1201F523235D4ADF0076D0E6 /* 35.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F4F6235D4ADF0076D0E6 /* 35.gif */; };
+		1201F524235D4ADF0076D0E6 /* 34.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F4F7235D4ADF0076D0E6 /* 34.gif */; };
+		1201F525235D4ADF0076D0E6 /* 20.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F4F8235D4ADF0076D0E6 /* 20.gif */; };
+		1201F526235D4ADF0076D0E6 /* 36.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F4F9235D4ADF0076D0E6 /* 36.gif */; };
+		1201F527235D4ADF0076D0E6 /* 22.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F4FA235D4ADF0076D0E6 /* 22.gif */; };
+		1201F528235D4ADF0076D0E6 /* 23.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F4FB235D4ADF0076D0E6 /* 23.gif */; };
+		1201F529235D4ADF0076D0E6 /* 37.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F4FC235D4ADF0076D0E6 /* 37.gif */; };
+		1201F52A235D4ADF0076D0E6 /* 33.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F4FD235D4ADF0076D0E6 /* 33.gif */; };
+		1201F52B235D4ADF0076D0E6 /* 27.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F4FE235D4ADF0076D0E6 /* 27.gif */; };
+		1201F52C235D4ADF0076D0E6 /* 26.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F4FF235D4ADF0076D0E6 /* 26.gif */; };
+		1201F52D235D4ADF0076D0E6 /* 32.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F500235D4ADF0076D0E6 /* 32.gif */; };
+		1201F52E235D4ADF0076D0E6 /* 18.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F501235D4ADF0076D0E6 /* 18.gif */; };
+		1201F52F235D4ADF0076D0E6 /* 24.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F502235D4ADF0076D0E6 /* 24.gif */; };
+		1201F530235D4ADF0076D0E6 /* 30.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F503235D4ADF0076D0E6 /* 30.gif */; };
+		1201F531235D4ADF0076D0E6 /* 31.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F504235D4ADF0076D0E6 /* 31.gif */; };
+		1201F532235D4ADF0076D0E6 /* 25.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F505235D4ADF0076D0E6 /* 25.gif */; };
+		1201F533235D4ADF0076D0E6 /* 19.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F506235D4ADF0076D0E6 /* 19.gif */; };
+		1201F534235D4ADF0076D0E6 /* 42.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F507235D4ADF0076D0E6 /* 42.gif */; };
+		1201F535235D4ADF0076D0E6 /* 4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F508235D4ADF0076D0E6 /* 4.gif */; };
+		1201F536235D4ADF0076D0E6 /* 5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F509235D4ADF0076D0E6 /* 5.gif */; };
+		1201F537235D4ADF0076D0E6 /* 43.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F50A235D4ADF0076D0E6 /* 43.gif */; };
+		1201F538235D4ADF0076D0E6 /* 7.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F50B235D4ADF0076D0E6 /* 7.gif */; };
+		1201F539235D4ADF0076D0E6 /* 41.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F50C235D4ADF0076D0E6 /* 41.gif */; };
+		1201F53A235D4ADF0076D0E6 /* 40.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F50D235D4ADF0076D0E6 /* 40.gif */; };
+		1201F53B235D4ADF0076D0E6 /* 6.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F50E235D4ADF0076D0E6 /* 6.gif */; };
+		1201F53C235D4ADF0076D0E6 /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F50F235D4ADF0076D0E6 /* 2.gif */; };
+		1201F53F235D4AE00076D0E6 /* 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F512235D4ADF0076D0E6 /* 3.gif */; };
+		1201F540235D4AE00076D0E6 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F513235D4ADF0076D0E6 /* 1.gif */; };
+		1201F541235D4AE00076D0E6 /* 8.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F514235D4ADF0076D0E6 /* 8.gif */; };
+		1201F542235D4AE00076D0E6 /* 9.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F515235D4ADF0076D0E6 /* 9.gif */; };
+		1201F543235D4AE00076D0E6 /* 14.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F516235D4ADF0076D0E6 /* 14.gif */; };
+		1201F544235D4AE00076D0E6 /* 28.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F517235D4ADF0076D0E6 /* 28.gif */; };
+		1201F545235D4AE00076D0E6 /* 29.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F518235D4ADF0076D0E6 /* 29.gif */; };
+		1201F546235D4AE00076D0E6 /* 15.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F519235D4ADF0076D0E6 /* 15.gif */; };
+		1201F547235D4AE00076D0E6 /* 17.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F51A235D4ADF0076D0E6 /* 17.gif */; };
+		1201F548235D4AE00076D0E6 /* 16.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F51B235D4ADF0076D0E6 /* 16.gif */; };
+		1201F549235D4AE00076D0E6 /* 12.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F51C235D4ADF0076D0E6 /* 12.gif */; };
+		1201F54A235D4AE00076D0E6 /* 13.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F51D235D4ADF0076D0E6 /* 13.gif */; };
+		1201F54B235D4AE00076D0E6 /* 39.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F51E235D4ADF0076D0E6 /* 39.gif */; };
+		1201F54C235D4AE00076D0E6 /* 11.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F51F235D4ADF0076D0E6 /* 11.gif */; };
+		1201F54D235D4AE00076D0E6 /* 10.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F520235D4ADF0076D0E6 /* 10.gif */; };
+		1201F54E235D4AE00076D0E6 /* 38.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1201F521235D4ADF0076D0E6 /* 38.gif */; };
+		25D2A193C1DBE89E451D5730 /* Pods_LittleRedMan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3110E01D1E1AEC87032CE73C /* Pods_LittleRedMan.framework */; };
+		37838F952331041C0096ECF8 /* LittleRedMan.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 37838F8E233104190096ECF8 /* LittleRedMan.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37838F932331041C0096ECF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37838F6F2330FF7D0096ECF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37838F8D233104190096ECF8;
+			remoteInfo = Sticker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		37838F992331041C0096ECF8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				37838F952331041C0096ECF8 /* LittleRedMan.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		012D369E33C2B7487365BE80 /* Pods-FatRabbit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FatRabbit.debug.xcconfig"; path = "Target Support Files/Pods-FatRabbit/Pods-FatRabbit.debug.xcconfig"; sourceTree = "<group>"; };
+		0A03CD032333AD6D00291C10 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; path = Stickers.xcstickers; sourceTree = "<group>"; };
+		0AF6DEE8233AF7E900E6F602 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0AF6DF06233AF7E900E6F602 /* StickerShowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerShowView.swift; sourceTree = "<group>"; };
+		0AF6DF0A233AF7E900E6F602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AF6DF0C233AF7E900E6F602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0AF6DF0E233AF7E900E6F602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0AF6DF0F233AF7E900E6F602 /* StickerShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerShowViewController.swift; sourceTree = "<group>"; };
+		0AF6DF10233AF7E900E6F602 /* StickerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerModel.swift; sourceTree = "<group>"; };
+		0AF6DF14233AF7E900E6F602 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0AF6DF15233AF7E900E6F602 /* StickerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerCollectionViewCell.swift; sourceTree = "<group>"; };
+		0AF6DF16233AF7E900E6F602 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1201F45C235D47350076D0E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1201F4F5235D4ADF0076D0E6 /* 21.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 21.gif; sourceTree = "<group>"; };
+		1201F4F6235D4ADF0076D0E6 /* 35.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 35.gif; sourceTree = "<group>"; };
+		1201F4F7235D4ADF0076D0E6 /* 34.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 34.gif; sourceTree = "<group>"; };
+		1201F4F8235D4ADF0076D0E6 /* 20.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 20.gif; sourceTree = "<group>"; };
+		1201F4F9235D4ADF0076D0E6 /* 36.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 36.gif; sourceTree = "<group>"; };
+		1201F4FA235D4ADF0076D0E6 /* 22.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 22.gif; sourceTree = "<group>"; };
+		1201F4FB235D4ADF0076D0E6 /* 23.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 23.gif; sourceTree = "<group>"; };
+		1201F4FC235D4ADF0076D0E6 /* 37.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 37.gif; sourceTree = "<group>"; };
+		1201F4FD235D4ADF0076D0E6 /* 33.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 33.gif; sourceTree = "<group>"; };
+		1201F4FE235D4ADF0076D0E6 /* 27.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 27.gif; sourceTree = "<group>"; };
+		1201F4FF235D4ADF0076D0E6 /* 26.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 26.gif; sourceTree = "<group>"; };
+		1201F500235D4ADF0076D0E6 /* 32.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 32.gif; sourceTree = "<group>"; };
+		1201F501235D4ADF0076D0E6 /* 18.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 18.gif; sourceTree = "<group>"; };
+		1201F502235D4ADF0076D0E6 /* 24.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 24.gif; sourceTree = "<group>"; };
+		1201F503235D4ADF0076D0E6 /* 30.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 30.gif; sourceTree = "<group>"; };
+		1201F504235D4ADF0076D0E6 /* 31.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 31.gif; sourceTree = "<group>"; };
+		1201F505235D4ADF0076D0E6 /* 25.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 25.gif; sourceTree = "<group>"; };
+		1201F506235D4ADF0076D0E6 /* 19.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 19.gif; sourceTree = "<group>"; };
+		1201F507235D4ADF0076D0E6 /* 42.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 42.gif; sourceTree = "<group>"; };
+		1201F508235D4ADF0076D0E6 /* 4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 4.gif; sourceTree = "<group>"; };
+		1201F509235D4ADF0076D0E6 /* 5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 5.gif; sourceTree = "<group>"; };
+		1201F50A235D4ADF0076D0E6 /* 43.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 43.gif; sourceTree = "<group>"; };
+		1201F50B235D4ADF0076D0E6 /* 7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 7.gif; sourceTree = "<group>"; };
+		1201F50C235D4ADF0076D0E6 /* 41.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 41.gif; sourceTree = "<group>"; };
+		1201F50D235D4ADF0076D0E6 /* 40.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 40.gif; sourceTree = "<group>"; };
+		1201F50E235D4ADF0076D0E6 /* 6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 6.gif; sourceTree = "<group>"; };
+		1201F50F235D4ADF0076D0E6 /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
+		1201F512235D4ADF0076D0E6 /* 3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3.gif; sourceTree = "<group>"; };
+		1201F513235D4ADF0076D0E6 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		1201F514235D4ADF0076D0E6 /* 8.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 8.gif; sourceTree = "<group>"; };
+		1201F515235D4ADF0076D0E6 /* 9.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 9.gif; sourceTree = "<group>"; };
+		1201F516235D4ADF0076D0E6 /* 14.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 14.gif; sourceTree = "<group>"; };
+		1201F517235D4ADF0076D0E6 /* 28.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 28.gif; sourceTree = "<group>"; };
+		1201F518235D4ADF0076D0E6 /* 29.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 29.gif; sourceTree = "<group>"; };
+		1201F519235D4ADF0076D0E6 /* 15.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 15.gif; sourceTree = "<group>"; };
+		1201F51A235D4ADF0076D0E6 /* 17.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 17.gif; sourceTree = "<group>"; };
+		1201F51B235D4ADF0076D0E6 /* 16.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 16.gif; sourceTree = "<group>"; };
+		1201F51C235D4ADF0076D0E6 /* 12.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 12.gif; sourceTree = "<group>"; };
+		1201F51D235D4ADF0076D0E6 /* 13.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 13.gif; sourceTree = "<group>"; };
+		1201F51E235D4ADF0076D0E6 /* 39.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 39.gif; sourceTree = "<group>"; };
+		1201F51F235D4ADF0076D0E6 /* 11.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 11.gif; sourceTree = "<group>"; };
+		1201F520235D4ADF0076D0E6 /* 10.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 10.gif; sourceTree = "<group>"; };
+		1201F521235D4ADF0076D0E6 /* 38.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 38.gif; sourceTree = "<group>"; };
+		3110E01D1E1AEC87032CE73C /* Pods_LittleRedMan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LittleRedMan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37838F772330FF7D0096ECF8 /* LittleRedMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleRedMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37838F8E233104190096ECF8 /* LittleRedMan.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LittleRedMan.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		37838F922331041C0096ECF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B5A6BAF1258CE6C253E03EE /* Pods-FatRabbit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FatRabbit.release.xcconfig"; path = "Target Support Files/Pods-FatRabbit/Pods-FatRabbit.release.xcconfig"; sourceTree = "<group>"; };
+		D38C842BB732210AE65579A5 /* Pods-LittleRedMan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittleRedMan.debug.xcconfig"; path = "Target Support Files/Pods-LittleRedMan/Pods-LittleRedMan.debug.xcconfig"; sourceTree = "<group>"; };
+		E8759A435650AEA5F821C8A7 /* Pods-LittleRedMan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittleRedMan.release.xcconfig"; path = "Target Support Files/Pods-LittleRedMan/Pods-LittleRedMan.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37838F742330FF7D0096ECF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D2A193C1DBE89E451D5730 /* Pods_LittleRedMan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E28400262C6AC53E225F8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AF6DEDE233AF7E900E6F602 /* LittleRedMan */ = {
+			isa = PBXGroup;
+			children = (
+				0AF6DEE8233AF7E900E6F602 /* ViewController.swift */,
+				0AF6DF06233AF7E900E6F602 /* StickerShowView.swift */,
+				1201F4F4235D4ADF0076D0E6 /* LittleRedMan */,
+				0AF6DF0A233AF7E900E6F602 /* Assets.xcassets */,
+				0AF6DF0B233AF7E900E6F602 /* LaunchScreen.storyboard */,
+				0AF6DF0D233AF7E900E6F602 /* Main.storyboard */,
+				0AF6DF0F233AF7E900E6F602 /* StickerShowViewController.swift */,
+				0AF6DF10233AF7E900E6F602 /* StickerModel.swift */,
+				0AF6DF14233AF7E900E6F602 /* AppDelegate.swift */,
+				0AF6DF15233AF7E900E6F602 /* StickerCollectionViewCell.swift */,
+				0AF6DF16233AF7E900E6F602 /* Info.plist */,
+			);
+			path = LittleRedMan;
+			sourceTree = "<group>";
+		};
+		1201F4F4235D4ADF0076D0E6 /* LittleRedMan */ = {
+			isa = PBXGroup;
+			children = (
+				1201F4F5235D4ADF0076D0E6 /* 21.gif */,
+				1201F4F6235D4ADF0076D0E6 /* 35.gif */,
+				1201F4F7235D4ADF0076D0E6 /* 34.gif */,
+				1201F4F8235D4ADF0076D0E6 /* 20.gif */,
+				1201F4F9235D4ADF0076D0E6 /* 36.gif */,
+				1201F4FA235D4ADF0076D0E6 /* 22.gif */,
+				1201F4FB235D4ADF0076D0E6 /* 23.gif */,
+				1201F4FC235D4ADF0076D0E6 /* 37.gif */,
+				1201F4FD235D4ADF0076D0E6 /* 33.gif */,
+				1201F4FE235D4ADF0076D0E6 /* 27.gif */,
+				1201F4FF235D4ADF0076D0E6 /* 26.gif */,
+				1201F500235D4ADF0076D0E6 /* 32.gif */,
+				1201F501235D4ADF0076D0E6 /* 18.gif */,
+				1201F502235D4ADF0076D0E6 /* 24.gif */,
+				1201F503235D4ADF0076D0E6 /* 30.gif */,
+				1201F504235D4ADF0076D0E6 /* 31.gif */,
+				1201F505235D4ADF0076D0E6 /* 25.gif */,
+				1201F506235D4ADF0076D0E6 /* 19.gif */,
+				1201F507235D4ADF0076D0E6 /* 42.gif */,
+				1201F508235D4ADF0076D0E6 /* 4.gif */,
+				1201F509235D4ADF0076D0E6 /* 5.gif */,
+				1201F50A235D4ADF0076D0E6 /* 43.gif */,
+				1201F50B235D4ADF0076D0E6 /* 7.gif */,
+				1201F50C235D4ADF0076D0E6 /* 41.gif */,
+				1201F50D235D4ADF0076D0E6 /* 40.gif */,
+				1201F50E235D4ADF0076D0E6 /* 6.gif */,
+				1201F50F235D4ADF0076D0E6 /* 2.gif */,
+				1201F512235D4ADF0076D0E6 /* 3.gif */,
+				1201F513235D4ADF0076D0E6 /* 1.gif */,
+				1201F514235D4ADF0076D0E6 /* 8.gif */,
+				1201F515235D4ADF0076D0E6 /* 9.gif */,
+				1201F516235D4ADF0076D0E6 /* 14.gif */,
+				1201F517235D4ADF0076D0E6 /* 28.gif */,
+				1201F518235D4ADF0076D0E6 /* 29.gif */,
+				1201F519235D4ADF0076D0E6 /* 15.gif */,
+				1201F51A235D4ADF0076D0E6 /* 17.gif */,
+				1201F51B235D4ADF0076D0E6 /* 16.gif */,
+				1201F51C235D4ADF0076D0E6 /* 12.gif */,
+				1201F51D235D4ADF0076D0E6 /* 13.gif */,
+				1201F51E235D4ADF0076D0E6 /* 39.gif */,
+				1201F51F235D4ADF0076D0E6 /* 11.gif */,
+				1201F520235D4ADF0076D0E6 /* 10.gif */,
+				1201F521235D4ADF0076D0E6 /* 38.gif */,
+			);
+			path = LittleRedMan;
+			sourceTree = "<group>";
+		};
+		37838F6E2330FF7D0096ECF8 = {
+			isa = PBXGroup;
+			children = (
+				0AF6DEDE233AF7E900E6F602 /* LittleRedMan */,
+				37838F8F2331041A0096ECF8 /* Sticker */,
+				37838F782330FF7D0096ECF8 /* Products */,
+				BEFB4EFACBF6A0E3E0D51E3A /* Pods */,
+				66223FEE6499B3490B996C68 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		37838F782330FF7D0096ECF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37838F772330FF7D0096ECF8 /* LittleRedMan.app */,
+				37838F8E233104190096ECF8 /* LittleRedMan.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37838F8F2331041A0096ECF8 /* Sticker */ = {
+			isa = PBXGroup;
+			children = (
+				37838F922331041C0096ECF8 /* Info.plist */,
+				0A03CD032333AD6D00291C10 /* Stickers.xcstickers */,
+				1201F45C235D47350076D0E6 /* Images.xcassets */,
+			);
+			path = Sticker;
+			sourceTree = "<group>";
+		};
+		66223FEE6499B3490B996C68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3110E01D1E1AEC87032CE73C /* Pods_LittleRedMan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEFB4EFACBF6A0E3E0D51E3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				012D369E33C2B7487365BE80 /* Pods-FatRabbit.debug.xcconfig */,
+				7B5A6BAF1258CE6C253E03EE /* Pods-FatRabbit.release.xcconfig */,
+				D38C842BB732210AE65579A5 /* Pods-LittleRedMan.debug.xcconfig */,
+				E8759A435650AEA5F821C8A7 /* Pods-LittleRedMan.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37838F762330FF7D0096ECF8 /* LittleRedMan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37838F892330FF7F0096ECF8 /* Build configuration list for PBXNativeTarget "LittleRedMan" */;
+			buildPhases = (
+				52C2597CC66C077BDCF535A7 /* [CP] Check Pods Manifest.lock */,
+				37838F732330FF7D0096ECF8 /* Sources */,
+				37838F742330FF7D0096ECF8 /* Frameworks */,
+				37838F752330FF7D0096ECF8 /* Resources */,
+				37838F992331041C0096ECF8 /* Embed App Extensions */,
+				503C4BC2C91BE21121FD900D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37838F942331041C0096ECF8 /* PBXTargetDependency */,
+			);
+			name = LittleRedMan;
+			productName = FatRabbit;
+			productReference = 37838F772330FF7D0096ECF8 /* LittleRedMan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37838F8D233104190096ECF8 /* Sticker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37838F962331041C0096ECF8 /* Build configuration list for PBXNativeTarget "Sticker" */;
+			buildPhases = (
+				37838F8C233104190096ECF8 /* Resources */,
+				92E28400262C6AC53E225F8D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sticker;
+			productName = Sticker;
+			productReference = 37838F8E233104190096ECF8 /* LittleRedMan.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37838F6F2330FF7D0096ECF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "陈建蕾";
+				TargetAttributes = {
+					37838F762330FF7D0096ECF8 = {
+						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					37838F8D233104190096ECF8 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 37838F722330FF7D0096ECF8 /* Build configuration list for PBXProject "LittleRedMan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				"en-IN",
+				ja,
+				es,
+				it,
+				nl,
+			);
+			mainGroup = 37838F6E2330FF7D0096ECF8;
+			productRefGroup = 37838F782330FF7D0096ECF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37838F762330FF7D0096ECF8 /* LittleRedMan */,
+				37838F8D233104190096ECF8 /* Sticker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37838F752330FF7D0096ECF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1201F544235D4AE00076D0E6 /* 28.gif in Resources */,
+				1201F530235D4ADF0076D0E6 /* 30.gif in Resources */,
+				1201F52A235D4ADF0076D0E6 /* 33.gif in Resources */,
+				1201F542235D4AE00076D0E6 /* 9.gif in Resources */,
+				1201F527235D4ADF0076D0E6 /* 22.gif in Resources */,
+				1201F545235D4AE00076D0E6 /* 29.gif in Resources */,
+				1201F548235D4AE00076D0E6 /* 16.gif in Resources */,
+				1201F53B235D4ADF0076D0E6 /* 6.gif in Resources */,
+				1201F526235D4ADF0076D0E6 /* 36.gif in Resources */,
+				1201F54C235D4AE00076D0E6 /* 11.gif in Resources */,
+				1201F522235D4ADF0076D0E6 /* 21.gif in Resources */,
+				1201F538235D4ADF0076D0E6 /* 7.gif in Resources */,
+				1201F53C235D4ADF0076D0E6 /* 2.gif in Resources */,
+				1201F534235D4ADF0076D0E6 /* 42.gif in Resources */,
+				1201F543235D4AE00076D0E6 /* 14.gif in Resources */,
+				1201F52C235D4ADF0076D0E6 /* 26.gif in Resources */,
+				1201F54B235D4AE00076D0E6 /* 39.gif in Resources */,
+				1201F528235D4ADF0076D0E6 /* 23.gif in Resources */,
+				0AF6DF38233AF7EA00E6F602 /* LaunchScreen.storyboard in Resources */,
+				1201F539235D4ADF0076D0E6 /* 41.gif in Resources */,
+				1201F524235D4ADF0076D0E6 /* 34.gif in Resources */,
+				1201F531235D4ADF0076D0E6 /* 31.gif in Resources */,
+				1201F53F235D4AE00076D0E6 /* 3.gif in Resources */,
+				1201F525235D4ADF0076D0E6 /* 20.gif in Resources */,
+				1201F540235D4AE00076D0E6 /* 1.gif in Resources */,
+				1201F54E235D4AE00076D0E6 /* 38.gif in Resources */,
+				1201F537235D4ADF0076D0E6 /* 43.gif in Resources */,
+				1201F547235D4AE00076D0E6 /* 17.gif in Resources */,
+				1201F541235D4AE00076D0E6 /* 8.gif in Resources */,
+				1201F52B235D4ADF0076D0E6 /* 27.gif in Resources */,
+				1201F529235D4ADF0076D0E6 /* 37.gif in Resources */,
+				0AF6DF37233AF7EA00E6F602 /* Assets.xcassets in Resources */,
+				1201F532235D4ADF0076D0E6 /* 25.gif in Resources */,
+				1201F523235D4ADF0076D0E6 /* 35.gif in Resources */,
+				0AF6DF39233AF7EA00E6F602 /* Main.storyboard in Resources */,
+				1201F546235D4AE00076D0E6 /* 15.gif in Resources */,
+				1201F52D235D4ADF0076D0E6 /* 32.gif in Resources */,
+				1201F536235D4ADF0076D0E6 /* 5.gif in Resources */,
+				1201F52F235D4ADF0076D0E6 /* 24.gif in Resources */,
+				1201F535235D4ADF0076D0E6 /* 4.gif in Resources */,
+				1201F54A235D4AE00076D0E6 /* 13.gif in Resources */,
+				1201F54D235D4AE00076D0E6 /* 10.gif in Resources */,
+				1201F53A235D4ADF0076D0E6 /* 40.gif in Resources */,
+				1201F549235D4AE00076D0E6 /* 12.gif in Resources */,
+				1201F533235D4ADF0076D0E6 /* 19.gif in Resources */,
+				1201F52E235D4ADF0076D0E6 /* 18.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37838F8C233104190096ECF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A03CD042333AD6D00291C10 /* Stickers.xcstickers in Resources */,
+				1201F45D235D47350076D0E6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		503C4BC2C91BE21121FD900D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LittleRedMan/Pods-LittleRedMan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LittleRedMan/Pods-LittleRedMan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LittleRedMan/Pods-LittleRedMan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52C2597CC66C077BDCF535A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LittleRedMan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37838F732330FF7D0096ECF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF6DF3D233AF7EA00E6F602 /* StickerCollectionViewCell.swift in Sources */,
+				0AF6DF3A233AF7EA00E6F602 /* StickerShowViewController.swift in Sources */,
+				0AF6DF1D233AF7E900E6F602 /* ViewController.swift in Sources */,
+				0AF6DF36233AF7EA00E6F602 /* StickerShowView.swift in Sources */,
+				0AF6DF3C233AF7EA00E6F602 /* AppDelegate.swift in Sources */,
+				0AF6DF3B233AF7EA00E6F602 /* StickerModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37838F942331041C0096ECF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37838F8D233104190096ECF8 /* Sticker */;
+			targetProxy = 37838F932331041C0096ECF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0AF6DF0B233AF7E900E6F602 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AF6DF0C233AF7E900E6F602 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0AF6DF0D233AF7E900E6F602 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AF6DF0E233AF7E900E6F602 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37838F872330FF7F0096ECF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37838F882330FF7F0096ECF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37838F8A2330FF7F0096ECF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D38C842BB732210AE65579A5 /* Pods-LittleRedMan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6MN2U6HR7;
+				INFOPLIST_FILE = "$(SRCROOT)/LittleRedMan/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.LittleRedMan.sticker;
+				PRODUCT_NAME = LittleRedMan;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		37838F8B2330FF7F0096ECF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8759A435650AEA5F821C8A7 /* Pods-LittleRedMan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6MN2U6HR7;
+				INFOPLIST_FILE = "$(SRCROOT)/LittleRedMan/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.LittleRedMan.sticker;
+				PRODUCT_NAME = LittleRedMan;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		37838F972331041C0096ECF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6MN2U6HR7;
+				INFOPLIST_FILE = Sticker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = www.LittleRedMan.sticker.Sticker;
+				PRODUCT_NAME = LittleRedMan;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		37838F982331041C0096ECF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6MN2U6HR7;
+				INFOPLIST_FILE = Sticker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = www.LittleRedMan.sticker.Sticker;
+				PRODUCT_NAME = LittleRedMan;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37838F722330FF7D0096ECF8 /* Build configuration list for PBXProject "LittleRedMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37838F872330FF7F0096ECF8 /* Debug */,
+				37838F882330FF7F0096ECF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37838F892330FF7F0096ECF8 /* Build configuration list for PBXNativeTarget "LittleRedMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37838F8A2330FF7F0096ECF8 /* Debug */,
+				37838F8B2330FF7F0096ECF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37838F962331041C0096ECF8 /* Build configuration list for PBXNativeTarget "Sticker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37838F972331041C0096ECF8 /* Debug */,
+				37838F982331041C0096ECF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37838F6F2330FF7D0096ECF8 /* Project object */;
+}
